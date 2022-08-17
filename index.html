@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link id="git" rel="shortcut icon" href="./style/task.png" type="image/x-icon">
+
+</head>
+<body>
+    <button class="light">Light Mode</button>
+    <div class="container">
+        <h3 class="header">Task list</h3>
+        <form  id="task_form">
+            <input type="text" id="new_task" placeholder="New Task">
+            <input type="submit" class="button-primary" value="Add Task" >
+        </form>
+        
+        <h5 id="error"></h5>
+        <h4 class="header">Tasks</h4>
+        <input type="text" id="task_filter" placeholder="Filter">
+        <button class="button-primary" id="clear_task_btn">Clear Task</button>
+        <hr>
+        <div class="container">
+            <ul id="task_list"></ul>
+        </div>
+        <hr>
+        <a href="https://github.com/tonygms2">
+            <img src="./style/GitHub-Mark/GitHub-Mark/PNG/GitHub-Mark-Light-64px.png" alt="github link" srcset=""></a>
+            <h6 class="header">Find My Github</h5>
+    </div>
+
+    <script src="./js/script.js"></script>
+    
+</body>
+
+</html>
